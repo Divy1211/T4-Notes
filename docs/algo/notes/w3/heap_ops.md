@@ -28,7 +28,7 @@ def build_max_heap(a: list[int]) -> None:
         max_heapfiy(a, i)
 ```
 
-$\mathcal{O}(n \log n)$
+$\mathcal{O}(n)$
 
 
 ## Heapsort
@@ -40,3 +40,20 @@ def heapsort(a: list[int]) -> None:
         a[0], a[hs] = a[hs], a[0]
         max_heapify(a, 0, hs)
 ```
+
+$\mathcal{O}(n \log n)$
+
+## Extract Mac
+
+```py
+def extract_max(a: list[int], hs: int = None) -> int:
+    if not hs:
+        hs = len(a)
+    max_ = a[0]
+    a[0] = a[hs-1]
+    hs -= 1
+    max_heapify(a, 0, hs)
+    return max_
+```
+
+$\mathcal{O} \log n$

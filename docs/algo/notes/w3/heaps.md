@@ -58,6 +58,12 @@ The following operations are defined on PQs:
 3. `#!py def extract_max(S):` Pop `max(S)`
 4. `#!py def increase_key(S, x, k):` Set the key for $x$ to $k$
 
+They are used in:
+
+1. Pathfinding: Dijkstra's algo
+2. Targetted advertising: Prim's algorithm
+3. Boardband routing management for bandwidth
+
 ### Possible Implementations
 
 1. ArrayOrder: Stores elements in the order that they come in
