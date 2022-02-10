@@ -51,7 +51,7 @@ Using these specifications it can be seen that $V_{il}-V_{ol}$ is the **low bit 
 
 **Noise Immunity** is the minimum between the low and high bit noise margins
 
-### Voltage Transfer Characteristic Function (VTC)
+### Voltage Transfer Characteristics (VTC)
 
 VTC is a plot of the $V_{out}$ vs the $V_{in}$ of a system.
 

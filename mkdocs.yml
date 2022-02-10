@@ -6,21 +6,25 @@ repo_url:           "https://github.com/Divy1211/T4-Notes"
 site_author:        "Divy Chandra"
 site_description:   "Personal Notes"
 site_name:          "T4 Notes 2022"
-site_url:           ""
+site_url:           "https://divy1211.github.io/T4-Notes/"
 
 use_directory_urls: true
 
 nav:
-  - About:                           "index.md"
+  # - About:                                  
+  # -                                         "index.md"
   - Algorithms:
     - Notes:
       - Algorithms:                         "algo/notes/w1/algos.md"
       - Document Distance:                  "algo/notes/w1/docdist.md"
-      - Sorting & Solving Recursion:        "algo/notes/w2/sort_recur.md"
+      - Sorting & Solving Recurrances:      "algo/notes/w2/sort_recur.md"
       - Master Theorem & Peak Finding:      "algo/notes/w2/master_peak.md"
+      - Heaps:                              "algo/notes/w3/heaps.md"
+      - Heap Operations:                    "algo/notes/w3/heap_ops.md"
     - Deadlines:                            "algo/deadlines.md"
     - Homework Sets:
       - HW Set 1:                           "algo/hwsets/hwset1.md"
+      - HW Set 2:                           "algo/hwsets/hwset2.md"
     - Info:                                 "algo/to_know.md"
   - Computation Structures:
     - Notes:
@@ -28,6 +32,8 @@ nav:
       - Digital Abstraction:                "comp_structs/notes/w1/digital_abstraction.md"
       - CMOS Tech:                          "comp_structs/notes/w2/cmos.md"
       - Logic Synthesis:                    "comp_structs/notes/w2/logic_synth.md"
+      - Sequential Logic & Sync:            "comp_structs/notes/w3/seq_sync.md"
+      - Finite State Machines:              "comp_structs/notes/w3/fsm.md"
     - Deadlines:                            "comp_structs/deadlines.md"
     - Info:                                 "comp_structs/to_know.md"
   - Infosys and Programming:
@@ -96,7 +102,7 @@ theme:
     - search.suggest
     # - toc.integrate
   font:
-    text: Roboto
+    text: Times New Roman
     code: Consolas
   icon:
     logo: octicons/file-code-24
@@ -118,6 +124,7 @@ theme:
     primary: red
     accent:  red
 extra_javascript:
+  - js/maths.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:

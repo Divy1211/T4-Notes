@@ -41,7 +41,7 @@ There are two types of MOSFETS:
 
 1. In the PFET, the source and the drain are p-doped and the bulk is n-doped
 
-2. The majority charge carrier for the bulk are $e^-$. The majority charge carrior for the source and drain are $e^o$. Typically, the bulk is connected to VDD to keep the PN junction rev biased
+2. The majority charge carrier for the bulk are $e^-$. The majority charge carrior for the source and drain are $e^o$. Typically, the bulk is connected to $V_{DD}$ to keep the PN junction rev biased
 
 3. The bulk and the S is connected to $V_{DD}$ to keep the PN junctions rev biased. This ensures that no current leaks between the source and the bulk and the drain and the bulk. When the PFET is on, holes flow from the S to the D (current flows from S to D).
 
@@ -88,7 +88,6 @@ Here is the complements recipe for cmos circuits:
 
 ![complements](https://dropbox.com/s/y9o0f8qba2ura21/cmoscomp.png?raw=1 "complements")
 
-
 ### Propagation Delay $t_{pd}$
 
 Assume the output of a device is initially invalid. The propagation delay is the time taken for the device to produce a valid output, measured the moment it was given a valid input.
@@ -100,3 +99,11 @@ This is the maximum of the propagation delays of all paths to the output from th
 Assume the output of a device is initially valid. The contamination delay is the time taken for the device to produce an invalid output, measured from the moment it was given an invalid input.
 
 This is the minimum of the contamination delays of all paths to the output from the inputs.
+
+## To Keep in Mind When Using MOSFETS
+
+1. They are not perfect gates, There will be some current leakage $I_L$ even when the MOSFET is supposed to be Off.
+2. What is the $V_{gs}$ to supply to turn a MOSFET on/off?
+3. What is the Resistance $R$ of the MOSFET
+
+[lab 1 notes](https://natalieagus.github.io/50002/lab/lab1#task-a-mosfet-on-effective-sheet-resistance)
