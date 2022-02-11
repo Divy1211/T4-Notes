@@ -40,10 +40,10 @@ To prevent voltage signals from being easily modified by external interferences,
 
 $V_{ol} < V_{il}$ < $V_{ih} < V_{oh}$
 
-$V_{ol}$ - Voltage Output Low: The voltage which a digital device outputs if it wants to communicate a `0` bit
-$V_{il}$ - Voltage Input Low: The voltage under which all input voltages are interpreted as `0`s
-$V_{ih}$ - Voltage Input High: The voltage above which all input voltages are interpreted as `1`s
-$V_{oh}$ - Voltage Output High: The voltage which a digital device outputs if it wants to communicate a `1` bit
+1. $V_{ol}$ - Voltage Output Low: The voltage which a digital device outputs if it wants to communicate a `0` bit
+2. $V_{il}$ - Voltage Input Low: The voltage under which all input voltages are interpreted as `0`s
+3. $V_{ih}$ - Voltage Input High: The voltage above which all input voltages are interpreted as `1`s
+4. $V_{oh}$ - Voltage Output High: The voltage which a digital device outputs if it wants to communicate a `1` bit
 
 Using these specifications it can be seen that $V_{il}-V_{ol}$ is the **low bit noise margin** and that $V_{ih}-V_{oh}$ is the **high bit noise margin**.
 
