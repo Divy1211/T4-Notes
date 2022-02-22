@@ -1,7 +1,9 @@
 docs_dir:           "docs/"
 
+edit_uri:           "tree/main/docs"
+
 repo_name:          "T4-Notes"
-repo_url:           "https://github.com/Divy1211/T4-Notes"
+repo_url:           "https://github.com/Divy1211/T4-Notes/"
 
 site_author:        "Divy Chandra"
 site_description:   "Personal Notes"
@@ -21,10 +23,14 @@ nav:
       - Master Theorem & Peak Finding:      "algo/notes/w2/master_peak.md"
       - Heaps:                              "algo/notes/w3/heaps.md"
       - Heap Operations:                    "algo/notes/w3/heap_ops.md"
+      - Binary Search Trees:                "algo/notes/w4/bst.md"
+      - AVL Trees:                          "algo/notes/w4/avl.md"
+      - Hasing:                             "algo/notes/w5/hasing.md"
     - Deadlines:                            "algo/deadlines.md"
     - Homework Sets:
       - HW Set 1:                           "algo/hwsets/hwset1.md"
       - HW Set 2:                           "algo/hwsets/hwset2.md"
+      - PSet 1:                             "algo/psets/pset1.md"
     - Info:                                 "algo/to_know.md"
   - Computation Structures:
     - Notes:
@@ -34,10 +40,16 @@ nav:
       - Logic Synthesis:                    "comp_structs/notes/w2/logic_synth.md"
       - Sequential Logic & Sync:            "comp_structs/notes/w3/seq_sync.md"
       - Finite State Machines:              "comp_structs/notes/w3/fsm.md"
+      - Turing Machines & Programmability:  "comp_structs/notes/w4/turing.md"
+      - Designing an Instruction Set:       "comp_structs/notes/w4/instruct.md"
+      - Building The Beta CPU:              "comp_structs/notes/w5/beta_cpu.md"
+      - Assemblers & Compilers:             "comp_structs/notes/w5/assembly.md"
     - Deadlines:                            "comp_structs/deadlines.md"
     - Info:                                 "comp_structs/to_know.md"
   - Infosys and Programming:
     - Notes:                                "infosys/notes/w1.md"
+    - 1D:                                   
+      - App Framework:                      "infosys/1D/app_framew.md"
     - Deadlines:                            "infosys/deadlines.md"
     - Info:                                 "infosys/to_know.md"
   - HASS Digital Humanities:

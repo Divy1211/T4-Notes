@@ -1,3 +1,3 @@
 # Important Information
 
-W3 Heaps repetitive
+W3 Heaps rep

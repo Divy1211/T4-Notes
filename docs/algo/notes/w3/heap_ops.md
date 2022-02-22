@@ -43,7 +43,7 @@ def heapsort(a: list[int]) -> None:
 
 $\mathcal{O}(n \log n)$
 
-## Extract Mac
+## Extract Max
 
 ```py
 def extract_max(a: list[int], hs: int = None) -> int:
