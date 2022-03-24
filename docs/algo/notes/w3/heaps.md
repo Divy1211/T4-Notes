@@ -6,7 +6,7 @@ It is an abstract mathematical model for objects of a certain datatype together 
 
 ## Data Structure
 
-A data structure (DS) is a format to **store and organise** data in order to facilitate access and modification. Ex: Arrays, Liss.
+A data structure (DS) is a format to **store and organise** data in order to facilitate access and modification. Ex: Arrays, List.
 
 A DS can be used to implement an ADT.
 

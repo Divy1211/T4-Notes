@@ -1,7 +1,9 @@
 ## Problem Definition
 
 Document D: A string of chars, raw input.
+
 An array of words Dwords: An array of words as they appear in D
+
 Word Dict W: A map of words to their frequencies in the doc.
 
 Notation: D(w) = frequency of w in D.

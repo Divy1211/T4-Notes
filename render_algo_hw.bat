@@ -1,0 +1,1 @@
+pandoc docs/algo/hwsets/hwset%1.md -o docs/algo/hwsets/hwset%1.pdf --toc

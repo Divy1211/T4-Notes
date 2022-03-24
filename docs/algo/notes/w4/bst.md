@@ -19,21 +19,22 @@ In a BST, the following two properties must hold:
     def find_parent(T, x):
         current = T.root
         while current:
-            if x.key < current.key and current.left:
+            if x.key < current.key:
+                if not current.left:
+                    return current
                 current = current.left
-            elif current.right:
+            else:
+                if not current.right:
+                    return current
                 current = current.right
-
-        return current
 
 
     def tree_insert(T, x):
         y = find_parent(T, x)
         x.parent = y
-        if not T.root
+        if not y:
             T.root = x
-            return
-        if x.key < y.key:
+        elif x.key < y.key:
             y.left = x
         else:
             y.right = x
@@ -41,13 +42,19 @@ In a BST, the following two properties must hold:
 
 2. `tree_delete` $\mathcal{O}(\log n)$
     ```py
+    def rp_ref(T, x, y):
+        if x.parent.left is x:
+            x.parent.left = y
+        elif x.parent.right is x:
+            x.parent.right = y
+
     def tree_delete(T, x):
         if not x.left and not x.right:
-            del x
+            rp_ref(T, x, None)
             return
 
         if not x.left or not x.right:
-            x = x.left or x.right:
+            rp_ref(T, x, x.left or x.right)
             return
 
         y = tree_min(x.right) # the smallest element in the right subtree is still bigger than all elements in x's left sub tree but also less than or equal to all elements in the right subtree of x by definition.
@@ -56,7 +63,7 @@ In a BST, the following two properties must hold:
         y.left = x.left
         y.right = x.right
 
-        x = y    
+        rp_ref(T, x, y)
     ```
 
 

@@ -7,15 +7,16 @@ def max_heapify(a: list[int], i: int, hs: int = None) -> None:
 
     l = 2*i+1
     r = 2*i+2
-    if a[l] > a[r]:
-        if l < hs and a[l] > a[i]:
-            a[l], a[i] = a[i], a[l]
-            max_heapify(a, l, hs)
-    else:
-        if r < hs and a[r] > a[i]:
-            a[r], a[i] = a[i], a[r]
-            max_heapify(a, l, hs)
-    
+    max_ = i
+
+    if l < hs and a[max_] < a[l]:
+        max_ = l
+    if r < hs and a[max_] < a[r]:
+        max_ = r
+
+    if max_ != i:
+        a[max_], a[i] = a[i], a[max_]
+        max_heapify(a, max_, hs)
 ```
 
 $\mathcal{O}(\log n)$

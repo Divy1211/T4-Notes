@@ -25,11 +25,17 @@ nav:
       - Heap Operations:                    "algo/notes/w3/heap_ops.md"
       - Binary Search Trees:                "algo/notes/w4/bst.md"
       - AVL Trees:                          "algo/notes/w4/avl.md"
-      - Hasing:                             "algo/notes/w5/hasing.md"
+      - Hashing:                            "algo/notes/w5/hashing.md"
+      - Graphs:                             "algo/notes/w6/graphs.md"
+      - Shortest Path:                      "algo/notes/w9/shortest_path.md"
+      - Bellman Ford:                       "algo/notes/w9/bellman_ford.md"
+      - Dijkstra's Algorithm:               "algo/notes/w9/dijkstras.md"
     - Deadlines:                            "algo/deadlines.md"
     - Homework Sets:
       - HW Set 1:                           "algo/hwsets/hwset1.md"
       - HW Set 2:                           "algo/hwsets/hwset2.md"
+      - HW Set 3:                           "algo/hwsets/hwset3.md"
+      - HW Set 4:                           "algo/hwsets/hwset4.md"
       - PSet 1:                             "algo/psets/pset1.md"
     - Info:                                 "algo/to_know.md"
   - Computation Structures:
@@ -43,7 +49,9 @@ nav:
       - Turing Machines & Programmability:  "comp_structs/notes/w4/turing.md"
       - Designing an Instruction Set:       "comp_structs/notes/w4/instruct.md"
       - Building The Beta CPU:              "comp_structs/notes/w5/beta_cpu.md"
+      - Beta Components:                    "comp_structs/notes/w5/beta_components.md"
       - Assemblers & Compilers:             "comp_structs/notes/w5/assembly.md"
+      - Stacks and Procedures:              "comp_structs/notes/w9/stacks.md"
     - Deadlines:                            "comp_structs/deadlines.md"
     - Info:                                 "comp_structs/to_know.md"
   - Infosys and Programming:
