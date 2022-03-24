@@ -13,6 +13,8 @@ Our MyCanteed@SUTD app is supposed to be able to:
 1. Allow users to leave comments on a stall's page
 2. Allow users to request certain food items
 
+## The Different Components for The App
+
 The app will consist of 3 main components:
 
 ### The User Interface
@@ -54,6 +56,18 @@ The backend is what will connect the user interface and the database of the app 
 ### Documentation
 
 The above process of coming up with the user interface, setting up firebase and creating the backend should be documented, showing why certain design choices were made. This is mainly useful for our report and maybe final presentation
+
+## The Plan of Action
+
+The UI design step must be done before anything else, so that the people working on the database are able to set up the database in a manner that can cater to the specific requirements set by the UI (in terms of what needs to be displayed on a given screen). Similarly, the backend implementation relies on the UI specification for what the app should be able to do/functions of each thing in the app.
+
+Do note that the specific colours/placement/alignment of UI elements may change even after work has begun on the database/backend. This is not an issue, and hence the UI designer does not need to be very particular about these things to start with. Just an overall this thing exists on this page and displays xxx/does yyy will allow the backend/database people to start their work. Specifics of colour/alignment is unrelated to that!
+
+Additionally, it is okay if additional elements are added to the UI at a later time. Our app should be built in a modular fashion such that adding/removing individual components is easy (and doesn't cascade-break a thousand other things. If this is the case, then the app design is bad!)
+
+Once the basic UI specification is done, the database and backend people can get to work creating the functionalities for all the mentioned components. The backend does require access to some functions from the database to be able to fully function, but most of it should be implementable without that finished. The main requirement is for the backend/database designers to coordinate such that the data being shared between them follows a format that has been agreed upon by both.
+
+This will help with consistency and save us the trouble of having to rewrite one or the other component in order to make sure that the data format is the same
 
 ## Current Task Delegations
 
