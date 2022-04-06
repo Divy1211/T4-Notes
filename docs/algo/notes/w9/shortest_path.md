@@ -86,7 +86,7 @@ A path may also just be represented as a sequence of vertices
 
 If the graph $G(V, E)$ is weighted, then there is a **weight function** $w: E \to \mathbb{R}$.
 
-common notation: $w(e) or w(u, v)$
+common notation: $w(e)$ or $w(u, v)$
 
 The weight of a path $p$ can be described as the sum of all the weights of the edges contained in the path. $w(p)$
 

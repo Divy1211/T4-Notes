@@ -15,13 +15,13 @@ This is a faster algo to solve the single source shortest path problem when $w:E
 
 ```py
 def dijkstras(G, w, s):
-    init_graph(G, s) # O(V)
-    visited = set()
+    init_graph(G, s)
+    S = set()
     min_heap = G.V
-    while len(min_heap) > 0: # O(V)
-        u = extract_min(min_heap) # O(log V)
-        s.add(u)
-        for v in G.neighbours[u]: # O(E)
-            relax(u, v, w) # requires the use of decrease_key() !! # O(log V)
+    while len(min_heap) > 0:
+        u = extract_min(min_heap)
+        S.add(u)
+        for v in G.neighbours[u]:
+            relax(u, v, w) # remember to use decrease key operation here!
 ```
 

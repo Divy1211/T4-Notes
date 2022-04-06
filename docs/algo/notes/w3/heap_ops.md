@@ -26,7 +26,7 @@ $\mathcal{O}(\log n)$
 ```py
 def build_max_heap(a: list[int]) -> None:
     for i in range(hs//2)[::-1]:
-        max_heapfiy(a, i)
+        max_heapify(a, i)
 ```
 
 $\mathcal{O}(n)$

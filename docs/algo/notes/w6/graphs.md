@@ -16,8 +16,8 @@ There are three ways to rep a graph:
 3. Adjacency Matrix ($\Theta(n^2)$ bits)
 
 1. Add edge: $\mathcal{O}(1)$
-2. Check Edge bn Two Vertices: $\mathcal{O}(1)$ for matrix, $\matahcal{O}(n)$ for adj list where $n$ is the number of neighbours
-3. Visit All Neighbours: $\Theta(n)$ for matrix, $\matahcal{O}(n)$ for adj list
+2. Check Edge bn Two Vertices: $\mathcal{O}(1)$ for matrix, $\mathcal{O}(n)$ for adj list where $n$ is the number of neighbours
+3. Visit All Neighbours: $\Theta(n)$ for matrix, $\mathcal{O}(n)$ for adj list
 4. Remove edge: same as check edge.
 
 ## Connected Graphs
@@ -28,13 +28,9 @@ Otherwise, graph is disjoint
 
 ## Tree graphs
 
-An undirected acyclic graph
+A connected acyclic graph is known as a tree
 
-A directed graph has a tree structure if its directed acyclic and its underlying structure is a tree.
-
-When there are directions, we can define child/parent nodes.
-
-Forest: A group of disjoint trees
+A disjoin acyclic graph is called bipartite or a forest
 
 ## Minimal Spanning Tree
 
