@@ -1,0 +1,1 @@
+pandoc docs/algo/psets/pset%1.md -o docs/algo/psets/pset%1.pdf --toc --pdf-engine=xelatex --toc-depth=3

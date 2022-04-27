@@ -105,13 +105,12 @@ An additional register is used in the MMU to store the PID. The TLB tag field co
 
 ## Using a Cache with VMem
 
-1. Before MMU (using VA)
-   1. No MMU access on hit
-   2. Need to flush cache on context switch
-
-2. After MMU (using PA)
-   1. MMU access every time
-   2. No flushing when changing contexts
+   1. Before MMU (using VA)
+      1. No MMU access on hit
+      2. Need to flush cache on context switch
+   2. After MMU (using PA)
+      1. MMU access every time
+      2. No flushing when changing contexts
 
 Since the PO is the same in the VA and the PA, then two computations can happen in parallel:
 

@@ -39,7 +39,7 @@ $Depth = Height = \log_2 n$
 Operations associated with heaps are called **Heap Operations**.
 
 1. `#!py def build_max_heap`: Build a max-heap from an (unordered) input array. $\mathcal{O}(n)$
-2. `#!py def build_max_heapmax_heapify`: $\mathcal{O}(\log n)$
+2. `#!py def max_heapify`: $\mathcal{O}(\log n)$
 3. `#!py def insert`: $\mathcal{O}(\log n)$
 4. `#!py def extract_max`: $\mathcal{O}(\log n)$
 5. `#!py def increase_key`: $\mathcal{O}(\log n)$

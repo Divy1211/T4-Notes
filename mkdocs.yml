@@ -31,6 +31,7 @@ nav:
       - Bellman Ford:                       "algo/notes/w9/bellman_ford.md"
       - Dijkstra's Algorithm:               "algo/notes/w9/dijkstras.md"
       - Dynamic Programming:                "algo/notes/w10/dp.md"
+      - P and NP:                           "algo/notes/w12/pnp.md"
     - Deadlines:                            "algo/deadlines.md"
     - Homework Sets:
       - HW Set 1:                           "algo/hwsets/hwset1.md"
@@ -38,6 +39,7 @@ nav:
       - HW Set 3:                           "algo/hwsets/hwset3.md"
       - HW Set 4:                           "algo/hwsets/hwset4.md"
       - HW Set 5:                           "algo/hwsets/hwset5.md"
+      - HW Set 6:                           "algo/hwsets/hwset6.md"
       - PSet 1:                             "algo/psets/pset1.md"
       - PSet 2:                             "algo/psets/pset2.md"
     - Info:                                 "algo/to_know.md"
@@ -59,6 +61,8 @@ nav:
       - Cache Design Issues:                "comp_structs/notes/w10/cache.md"
       - Virtual Memory:                     "comp_structs/notes/w11/vmem.md"
       - Virtual Machine:                    "comp_structs/notes/w11/vm.md"
+      - System Calls:                       "comp_structs/notes/w13/syscalls.md"
+      - Important Concepts:                 "comp_structs/notes/w13/imp.md"
     - Deadlines:                            "comp_structs/deadlines.md"
     - Info:                                 "comp_structs/to_know.md"
   - Infosys and Programming:

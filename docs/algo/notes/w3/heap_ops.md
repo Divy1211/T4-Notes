@@ -57,4 +57,4 @@ def extract_max(a: list[int], hs: int = None) -> int:
     return max_
 ```
 
-$\mathcal{O} \log n$
+$\mathcal{O} (\log n)$
